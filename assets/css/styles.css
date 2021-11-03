@@ -1,0 +1,103 @@
+:root {
+  --primary-color: #f06449;
+  --secondary-color: #0582ca;
+  --tertiary-color: #000;
+}
+/* nav bar */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--tertiary-color);
+}
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+  min-width: 220px;
+  flex-wrap: wrap;
+}
+.work-images:first-child {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+  max-width: 800px;
+}
+figure a img {
+  min-width: 220px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+header {
+  padding: 20px 35px;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--primary-color);
+  margin: 0;
+}
+header a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+header nav ul li a:hover {
+  color: var(--tertiary-color);
+  border-radius: 15px;
+  border-bottom: 3px solid var(--tertiary-color);
+}
+
+/* hero */
+.hero {
+  background-image: url("https://picsum.photos/1000");
+  background-size: cover;
+  background-position: center;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero h2 {
+  padding: 300px;
+}
+
+/* about me */
+
+/* work */
+
+/* contact */

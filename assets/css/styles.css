@@ -3,40 +3,56 @@
   --secondary-color: #0582ca;
   --tertiary-color: #000;
 }
+
 /* nav bar */
 body {
   font-family: Helvetica, Arial, sans-serif;
   color: var(--tertiary-color);
 }
-figure {
-  border: thin #c0c0c0 solid;
-  display: flex;
-  flex-flow: column;
-  padding: 5px;
-  max-width: 220px;
-  margin: auto;
-  min-width: 220px;
-  flex-wrap: wrap;
-}
-.work-images:first-child {
-  width: 80%;
-  display: flex;
-  flex-flow: column;
-  padding: 5px;
-  margin: auto;
-  max-width: 800px;
-}
-figure a img {
-  min-width: 220px;
-}
 
-figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
+#work {
   text-align: center;
 }
+.section h2 {
+  margin-bottom: 35px;
+  display: inline-block;
+  border-bottom: 3px solid #000;
+}
+.row-one,
+.row-two {
+  width: 100%;
+}
+
+.figcaption {
+  opacity: 0.3;
+}
+
+.column {
+  padding: 5px 35px;
+  opacity: 0.3;
+}
+.center {
+  width: 76%;
+}
+.small-preview {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column:hover {
+  opacity: 1;
+  background-position: center;
+  justify-content: center;
+}
+.img {
+  opacity: 0.3;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
 header {
   padding: 20px 35px;
   background-color: var(--secondary-color);

@@ -6,7 +6,7 @@
 .underline {
   border-bottom: 1px solid #f06449;
   width: 47%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 /* nav bar */
@@ -21,10 +21,10 @@ body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.section h2 {
+section h2 {
   margin-bottom: 35px;
   display: inline-block;
-  border-bottom: 3px solid #000;
+  font-size: 40px;
 }
 .row-one,
 .row-two {
@@ -138,21 +138,45 @@ header nav ul li a:hover {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+.about-mestuff p {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* contact */
 #contact {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.contact-me a {
-  text-decoration: none;
-  color: #000;
-}
-.contact-me img {
-  padding-right: 20px;
-  top: 5px;
+.contact-container {
+  width: 100%;
   position: relative;
+  top: 5px;
 }
-
+.left-side {
+  flex: 2;
+  display: inline-block;
+}
+.left-side img {
+  margin: auto;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+.right-side {
+  flex: 3;
+  display: inline-block;
+  position: relative;
+  top: -40px;
+  text-align: left;
+}
+.right-side p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
 /* mobile friendly stuff */
 
 @media screen and (max-width: 1440px) {

@@ -54,6 +54,9 @@ section h2 {
   background-position: center;
   justify-content: center;
 }
+.card:hover {
+  opacity: 1;
+}
 .card {
   border-style: none;
 }

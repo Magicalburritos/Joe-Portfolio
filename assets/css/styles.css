@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #fff;
+  --primary-color: #d3d3d3;
   --secondary-color: #0582ca;
   --tertiary-color: #000;
 }
@@ -15,6 +15,7 @@ body {
   color: var(--tertiary-color);
   margin: 0;
   padding: 0;
+  width: 80%;
 }
 /* work */
 #work {
@@ -28,7 +29,7 @@ section h2 {
 }
 .row-one,
 .row-two {
-  width: 100%;
+  width: 80%;
 }
 
 .figcaption {
@@ -52,6 +53,9 @@ section h2 {
   opacity: 1;
   background-position: center;
   justify-content: center;
+}
+.card {
+  border-style: none;
 }
 .card img {
   height: 600px;

@@ -59,6 +59,7 @@ section h2 {
 }
 .card {
   border-style: none;
+  opacity: 0.3;
 }
 .card img {
   height: 337px;

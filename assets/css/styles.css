@@ -27,40 +27,13 @@ section h2 {
   display: inline-block;
   font-size: 40px;
 }
-.row-one,
-.row-two {
-  width: 80%;
-}
-
-.figcaption {
-  opacity: 0.3;
-}
-
-.column {
-  padding: 5px 35px;
-  opacity: 0.3;
-}
-.center {
-  width: 80%;
-  height: 400px;
-}
-.small-preview {
-  display: flex;
-  justify-content: space-around;
-}
 
 .column:hover {
   opacity: 1;
   background-position: center;
   justify-content: center;
 }
-.card:hover {
-  opacity: 1;
-}
-.card {
-  border-style: none;
-  opacity: 0.3;
-}
+
 .card img {
   height: 337px;
   width: 600px;

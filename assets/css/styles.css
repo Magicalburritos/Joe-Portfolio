@@ -13,9 +13,8 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   color: var(--tertiary-color);
-  margin: 0;
-  padding: 0;
-  width: 80%;
+  margin: auto;
+  width: 100%;
 }
 /* work */
 #work {
@@ -27,55 +26,22 @@ section h2 {
   display: inline-block;
   font-size: 40px;
 }
-.row-one,
-.row-two {
-  width: 80%;
-}
-
-.figcaption {
-  opacity: 0.3;
-}
-
-.column {
-  padding: 5px 35px;
-  opacity: 0.7;
-}
-.center {
-  width: 80%;
-  height: 400px;
-}
-.small-preview {
-  display: flex;
-  justify-content: space-around;
-}
 
 .column:hover {
   opacity: 1;
   background-position: center;
   justify-content: center;
 }
-.card:hover {
-  opacity: 1;
-}
-.card {
-  border-style: none;
-  opacity: 0.7;
-}
 .card img {
-  height: 337px;
+  height: 330px;
   width: 600px;
 }
-.img {
-  opacity: 0.3;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
+section {
+  margin-top: 30px;
 }
 
 header {
-  padding: 20px 35px;
+  padding: 10px 35px;
   background-color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
@@ -116,13 +82,12 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   color: var(--tertiary-color);
-  border-radius: 15px;
-  border-bottom: 3px solid var(--tertiary-color);
+  border-bottom: 2px solid var(--tertiary-color);
 }
 
 /* hero */
 .hero {
-  background-image: url('../imgs/hero_copy.png');
+  background-image: url('../imgs/hero.png');
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -144,6 +109,35 @@ header nav ul li a:hover {
   padding: 3px;
 }
 
+.run-buddy {
+  background-image: url('../imgs/runbuddy.jpg ');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 600px;
+  width: auto;
+  margin: auto;
+}
+.run-buddy h3 {
+  text-shadow: 1px 0 0 #000, 0 -1px #000, 1px 0 0 #000, 0 -1px #000;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 3px;
+}
+.run-buddy:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+.row {
+  margin-bottom: 10px;
+}
+
 /* about me */
 #about {
   text-align: center;
@@ -162,38 +156,6 @@ header nav ul li a:hover {
   margin: auto;
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
-}
-/* contact */
-#contact {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.contact-container {
-  width: 100%;
-  position: relative;
-  top: 5px;
-}
-.left-side {
-  flex: 2;
-  display: inline-block;
-}
-.left-side img {
-  margin: auto;
-  position: relative;
-  width: 30px;
-  height: 30px;
-  padding-right: 5px;
-}
-.right-side {
-  flex: 3;
-  display: inline-block;
-  position: relative;
-  top: -40px;
-  text-align: left;
-}
-.right-side p {
-  margin-bottom: 0;
-  font-weight: bold;
 }
 /* mobile friendly stuff */
 

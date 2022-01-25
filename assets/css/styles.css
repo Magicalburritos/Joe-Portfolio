@@ -26,6 +26,9 @@ section h2 {
   display: inline-block;
   font-size: 40px;
 }
+.resume {
+  margin-bottom: 3px;
+}
 
 .column:hover {
   opacity: 1;

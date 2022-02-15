@@ -1,6 +1,6 @@
 # Week2-Joe-Portfolio
  
- https://magicalburritos.github.io/Week2-Joe-Portfolio/
+ https://magicalburritos.github.io/Joe-Portfolio/
  
  Made a webpage to be update with projects as need useing all current knowledge with css and html.
  Made it easy for a employer to find and contact me in multiple ways.
